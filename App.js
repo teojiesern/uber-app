@@ -6,6 +6,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import MapScreen from "./Screens/MapScreen";
+import { StatusBar } from "expo-status-bar";
 
 export default function App() {
     const Stack = createNativeStackNavigator();
@@ -26,6 +27,7 @@ export default function App() {
                             options={{ headerShown: false }}
                         />
                     </Stack.Navigator>
+                    <StatusBar style="auto" />
                 </SafeAreaProvider>
             </NavigationContainer>
         </Provider>
