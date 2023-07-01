@@ -16,7 +16,12 @@ const Map = () => {
         if (!origin || !destination) return;
 
         mapRef.current.fitToSuppliedMarkers(["origin", "destination"], {
-            edgePadding: { bottom: 50 },
+            edgePadding: {
+                top: 50,
+                right: 50,
+                bottom: 50,
+                left: 50,
+            },
         });
     }, [origin, destination]);
 
