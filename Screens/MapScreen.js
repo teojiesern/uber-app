@@ -14,7 +14,7 @@ const MapScreen = () => {
                 <Map />
             </View>
 
-            <View style={tw`h-1/2`}>
+            <View style={tw`h-1/2 bg-white`}>
                 <Stack.Navigator>
                     <Stack.Screen
                         name="NavigateCard"
