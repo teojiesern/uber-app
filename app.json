@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "uberclone",
-    "slug": "uberclone",
+    "name": "GRRab",
+    "slug": "GRRab",
+    "description": "This is a mock app for e-hailing system",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/3d-car.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",

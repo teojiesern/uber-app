@@ -80,7 +80,7 @@ const RideOptionsCard = () => {
                                 {item.title}
                             </Text>
                             <Text>
-                                {travelTimeInformation.duration.text} Travel
+                                {travelTimeInformation?.duration?.text} Travel
                                 Time
                             </Text>
                         </View>
